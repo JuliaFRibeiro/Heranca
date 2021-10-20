@@ -10,7 +10,7 @@ namespace Herança
     {
         //Declarações das variáveis e uso do encapsulamento
         public double EmprestimoLimite { get; set; }
-        //Cconstrutor padrão
+        //Construtor padrão
         public Conta2() { }
         //Construtor com parâmetros utilizando o da Classe Conta
         public Conta2(int numero, string titular, double saldo, double emprestimoLimite) : base(numero, titular, saldo)
